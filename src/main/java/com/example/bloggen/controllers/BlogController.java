@@ -23,7 +23,7 @@ public class BlogController {
     UserRepository userRepository;
     @Autowired
     CommentRepository commentRepository;
-
+//TEST TEST KRAKEN
     //show all blogs with paging
     @GetMapping("/blogs/page/{pageno}")
     public String showPage(@PathVariable() Integer pageno, Model model) {
